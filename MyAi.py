@@ -1,7 +1,7 @@
 from google import genai
 from google.genai import types
 import streamlit as st
-robo = genai.Client(api_key="AQ.Ab8RN6K0Jq5HdMTkKCt1ZjlPrE4MfCd77G_y901AF6L84BscIQ")
+robo = genai.Client(api_key="AQ.Ab8RN6L5rAAySBzYVeppprfmdTKndqs8fCRyHdfqQh8nVwF_YA")
 
 mychat = robo.chats.create(model="gemini-flash-lite-latest")
 
